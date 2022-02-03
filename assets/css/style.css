@@ -409,13 +409,14 @@ section {
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .resume .resume-item ul {
   padding-left: 20px;
 }
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-size: large;
 }
 .resume .resume-item:last-child {
   padding-bottom: 0;
@@ -664,7 +665,7 @@ Works
   font-size: 22px;
 }
 .services .icon-box h4 a {
-  color: #45505b;
+  color: #830011;
   transition: ease-in-out 0.3s;
 }
 .services .icon-box p {
@@ -776,11 +777,6 @@ Works
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-  /* iframe {
-  margin-left:80px;
-}    */
-
-
 
 .contact .info {
   /* margin:200px;  */
@@ -801,16 +797,16 @@ Works
   transition: all 0.3s ease-in-out;
 }
 .contact .info h4 {
-  padding: 0 0 0 60px;
+  padding-left: 80px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
   color: #45505b;
 }
 .contact .info p {
-  padding: 0 0 0 60px;
+  padding-left: 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 15px;
   color: #728394;
 }
 .contact .info .email, .contact .info .phone {
@@ -895,7 +891,9 @@ Works
 
 
 /* works page */
-
+.works h4{
+ color:  #830011;
+}
 .works .icon-box .icon {
   margin: 0 auto;
   width: 100px;
@@ -922,11 +920,11 @@ Works
   fill: #f5f5f5;
 }
 .works .iconbox-orange i {
-  color: #ffa76e;
+  color:  #830011;;
 }
-.works .iconbox-orange:hover .icon i {
+/* .works .iconbox-orange:hover .icon i {
   color: #fff;
 }
 .works .iconbox-orange:hover .icon path {
   fill: #ffa76e;
-} 
+}  */
