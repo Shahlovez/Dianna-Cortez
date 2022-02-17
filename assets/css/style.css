@@ -704,7 +704,9 @@ Works
 .services .iconbox-pink:hover .icon path {
   fill: #e80368;
 }
-
+.actions{
+  text-align: left;
+}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -725,13 +727,13 @@ Works
   margin: 0 auto;
 }
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   margin: 0 0 15px 0;
 }
@@ -753,6 +755,7 @@ Works
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  font-size: 18px;
 }
 .testimonials .swiper-pagination {
   margin-top: 20px;
